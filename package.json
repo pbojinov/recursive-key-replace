@@ -1,0 +1,29 @@
+{
+    "name": "recursive-key-replace",
+    "version": "1.0.0",
+    "description": "🔑 Recursively replace object keys",
+    "keywords": ["recursively", "replace", "object", "keys", "value", "recursion"],
+    "main": "index.js",
+    "scripts": {
+        "test": "ava --verbose"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pbojinov/recursive-key-replace.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pbojinov/recursive-key-replace/issues"
+    },
+    "homepage": "https://github.com/pbojinov/recursive-key-replace#readme",
+    "devDependencies": {
+        "ava": "^0.22.0"
+    },
+    "dependencies": {
+        "lodash.forown": "^4.4.0",
+        "lodash.includes": "^4.3.0",
+        "lodash.isobject": "^3.0.2",
+        "lodash.replace": "^4.1.4"
+    }
+}
